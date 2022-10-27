@@ -9,7 +9,7 @@
     --default-font-color: white;
     --font-color-link: #C4C4CC;
     --font-color-h1: #E1E1E6;
-    --font-color-hover: #02799D;
+    --font-color-hover-button: #02799D;
     --default-font: 'Roboto', sans-serif;
 }
 
@@ -21,7 +21,7 @@ body {
 }
 
 nav {
-    padding: 2.5rem 4.5rem;
+    padding: 40px 72px;
     display: flex;
     gap: 2rem;
     align-items: center;
@@ -42,38 +42,38 @@ nav a:hover {
 main {
     width: 100vw;
     min-height: 100vh;
-    padding: 4.5rem;
+    padding: 72px;
     background-image: url(../imgs/bkg1.png);
     background-position: bottom;
     background-size: cover;
     display: grid;
     align-content: center;
     justify-items: center;
-    gap: 1.5rem;
+    gap: 24px;
 }
 
 main h1 {
     color: var(--font-color-h1);
-    font-size: 3rem;
+    font-size: 48px;
     line-height: 125%;
 }
 
-a.know-more {
+a.now-more {
     cursor: pointer;
     background: none;
-    border: 0.12rem solid var(--default-font-color);
-    border-radius: 0.31rem;
-    padding: 0.75rem 2rem;
+    border: 2px solid var(--default-font-color);
+    border-radius: 5px;
+    padding: 12px 32px;
     color: var(--default-font-color);
     font-family: 'Roboto';
     font-weight: 700;
-    font-size: 0.87rem;
-    line-height: 1.5rem;
+    font-size: 14px;
+    line-height: 24px;
 }
 
-a.know-more:hover {
+main button:hover {
     background: var(--default-font-color);
-    color: var(--font-color-hover);
+    color: var(--font-color-hover-button);
 }
 
 /*Estilização universe.html e exploration.html*/
@@ -88,14 +88,8 @@ main#exploration {
     justify-items: flex-start;
 }
 
-main#error {
-    background-image: url(../imgs/bkg4.jpg);
-    background-size: contain;
-    background-repeat: no-repeat;
-}
-
 p.text-about {
-    width: 40.5rem;
-    font-size: 1.12rem;
+    width: 648px;
+    font-size: 18px;
     line-height: 160%;
 }

@@ -8,7 +8,7 @@
 :root {
     --default-font-color: white;
     --font-color-link: #C4C4CC;
-    --font-color-h1: #E1E1E6;
+    --font-color-about-more: #E1E1E6;
     --font-color-hover: #02799D;
     --default-font: 'Roboto', sans-serif;
 }
@@ -90,8 +90,11 @@ main#exploration {
 
 main#error {
     background-image: url(../imgs/bkg4.jpg);
-    background-size: contain;
-    background-repeat: no-repeat;
+}
+
+main#error h1 {
+    color: var();
+    font-size: 5rem;
 }
 
 p.text-about {

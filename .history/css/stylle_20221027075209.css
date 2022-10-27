@@ -64,7 +64,7 @@ a.know-more {
     border: 0.12rem solid var(--default-font-color);
     border-radius: 0.31rem;
     padding: 0.75rem 2rem;
-    color: var(--default-font-color);
+    color: var(--);
     font-family: 'Roboto';
     font-weight: 700;
     font-size: 0.87rem;
@@ -90,8 +90,11 @@ main#exploration {
 
 main#error {
     background-image: url(../imgs/bkg4.jpg);
-    background-size: contain;
-    background-repeat: no-repeat;
+}
+
+main#error h1 {
+    color: var();
+    font-size: 5rem;
 }
 
 p.text-about {

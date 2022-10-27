@@ -90,8 +90,6 @@ main#exploration {
 
 main#error {
     background-image: url(../imgs/bkg4.jpg);
-    background-size: contain;
-    background-repeat: no-repeat;
 }
 
 p.text-about {

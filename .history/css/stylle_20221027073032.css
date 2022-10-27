@@ -9,7 +9,7 @@
     --default-font-color: white;
     --font-color-link: #C4C4CC;
     --font-color-h1: #E1E1E6;
-    --font-color-hover: #02799D;
+    --font-color-hover-button: #02799D;
     --default-font: 'Roboto', sans-serif;
 }
 
@@ -61,7 +61,7 @@ main h1 {
 a.know-more {
     cursor: pointer;
     background: none;
-    border: 0.12rem solid var(--default-font-color);
+    border: 2px solid var(--default-font-color);
     border-radius: 0.31rem;
     padding: 0.75rem 2rem;
     color: var(--default-font-color);
@@ -73,7 +73,7 @@ a.know-more {
 
 a.know-more:hover {
     background: var(--default-font-color);
-    color: var(--font-color-hover);
+    color: var(--font-color-hover-button);
 }
 
 /*Estilização universe.html e exploration.html*/
@@ -86,12 +86,6 @@ main#universe {
 main#exploration {
     background-image: url(../imgs/bkg3.png);
     justify-items: flex-start;
-}
-
-main#error {
-    background-image: url(../imgs/bkg4.jpg);
-    background-size: contain;
-    background-repeat: no-repeat;
 }
 
 p.text-about {

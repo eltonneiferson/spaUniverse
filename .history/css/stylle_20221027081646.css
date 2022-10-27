@@ -89,9 +89,22 @@ main#exploration {
 }
 
 main#error {
-    background-image: url(../imgs/bkg4.jpg);
-    background-size: contain;
-    background-repeat: no-repeat;
+    background-image: url(https://neilpatel.com/wp-content/uploads/2019/05/ilustracao-de-pagina-de-erro-web.jpeg);
+    ba
+}
+
+main#error h1 {
+    width: 25rem;
+    border: .5rem solid var(--default-font-color);
+    color: red;
+    text-align: center;
+    font-size: 6rem;
+}
+
+main#error h2 {
+    width: 25rem;
+    text-align: center;
+    font-size: 2rem;
 }
 
 p.text-about {

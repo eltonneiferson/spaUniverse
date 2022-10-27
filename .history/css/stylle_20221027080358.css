@@ -90,8 +90,22 @@ main#exploration {
 
 main#error {
     background-image: url(../imgs/bkg4.jpg);
-    background-size: contain;
-    background-repeat: no-repeat;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+div.text {
+    color: red;
+}
+
+main#error h1 {
+    color: red;
+    letter-spacing: .7rem;
+    font-size: 6rem;
+}
+
+main#error p {
+    font-size: 10rem;
+    letter-spacing: 2.5rem;
 }
 
 p.text-about {
