@@ -16,8 +16,6 @@
 body {
     color: var(--default-font-color);
     font-family: var(--default-font);
-    display: grid;
-    place-content: center;
 }
 
 nav {
@@ -39,11 +37,14 @@ nav a:hover {
     font-weight: bold;
 }
 
-main {
+.pageActive {
+    color: var(--default-font-color);
+    font-weight: bold;
+}
+
+section {
     width: 100vw;
     min-height: 100vh;
-    padding: 4.5rem;
-    background-image: url(../imgs/bkg1.png);
     background-position: bottom;
     background-size: cover;
     display: grid;
@@ -52,7 +53,7 @@ main {
     gap: 1.5rem;
 }
 
-main h1 {
+section h1 {
     color: var(--font-color-h1);
     font-size: 3rem;
     line-height: 125%;
@@ -65,7 +66,7 @@ a.know-more {
     border-radius: 0.31rem;
     padding: 0.75rem 2rem;
     color: var(--default-font-color);
-    font-family: 'Roboto';
+    font-family: var(--default-font);
     font-weight: 700;
     font-size: 0.87rem;
     line-height: 1.5rem;
@@ -76,22 +77,24 @@ a.know-more:hover {
     color: var(--font-color-hover);
 }
 
-/*Estilização universe.html e exploration.html*/
+section.home {
+    background-image: url(../imgs/bkg1.png);
+}
 
-main#universe {
+section.universe {
     background-image: url(../imgs/bkg2.png);
     justify-items: flex-start;
+    padding: 4.5rem;
 }
 
-main#exploration {
+section.exploration {
     background-image: url(../imgs/bkg3.png);
     justify-items: flex-start;
+    padding: 4.5rem;
 }
 
-main#error {
-    background-image: url(../imgs/bkg4.jpg);
-    background-size: contain;
-    background-repeat: no-repeat;
+section.error {
+    background-image: url(../imgs/bkg1.png);
 }
 
 p.text-about {
