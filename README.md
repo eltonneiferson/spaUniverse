@@ -27,4 +27,4 @@ Na página é possível navegar entre as outras páginas sem que seja necessári
 
 E caso seja acessado um caminho que não existe na aplicação será apresentado um erro:
 
-![Imagem do projeto](./project/img03.png)
+![Imagem do projeto](./project/img04.png)
