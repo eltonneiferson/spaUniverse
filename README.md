@@ -11,7 +11,7 @@
 
 <h2 align="center">Tecnologias utilizadas</h2>
 
-<p>Foram utilizado o HTML5, CSS3 e JavaScript, para o desenvolvimento da aplicação e todas as suas funcionalidades e também foi utilizado o NodeJS para criar um servidor para testes da aplicação.</p>
+<p>Foi utilizado o HTML5, CSS3 e JavaScript, para o desenvolvimento da aplicação e todas as suas funcionalidades e também foi utilizado o NodeJS para criar um servidor para testes da aplicação.</p>
 
 <p align="center">
   <a href="https://skillicons.dev">
